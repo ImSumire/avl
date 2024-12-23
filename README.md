@@ -18,6 +18,9 @@ To use this AVL tree implementation, simply include the `avl_tree.h` file in you
 **Example Usage**
 
 ```c
+#include "./avl_tree.h"
+
+
 void print_key(uint64_t key) {
     printf("%lu, ", key);
 }
