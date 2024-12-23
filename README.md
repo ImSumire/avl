@@ -62,9 +62,11 @@ int main() {
 - `AvlTree`: Represents the AVL tree data structure, containing a root node.
 
 ## Time Complexity
+- **In-order traversal**: O(n)
 - **Insertion**: O(log2(n))
 - **Removal**: O(log2(n))
-- **In-order traversal**: O(n)
+
+> For 4 294 967 296 elements, worst step count: 32
 
 ## Space Complexity
 - **AVL tree**: O(n)
